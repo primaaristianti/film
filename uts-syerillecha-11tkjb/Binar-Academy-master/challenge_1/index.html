@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burger</title>
+    <link rel="stylesheet" href="Bootstrap 5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+        <style>
+            .container-fluid{
+                background-image: url(img/kenta.jpg);
+                height: 654px; 
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .header-section{
+                background-color: rgba(0, 0, 0, 0.404);
+                height:41em;
+            }
+            .header-section .row{
+                color: white;
+            }
+            .row h1{
+                font-size: 5em;
+            }
+            .row {
+                font-size: 1em;
+            }
+             .call-to-action{
+                background-color: rgb(255, 255, 255);
+                margin-top: 5em;
+                color: black;
+                font-size: 1cap;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             }
+             .produk {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: center;
+            }
+    
+            .produk img {
+                max-width: 100%;
+            }
+    
+            .nama-produk {
+                font-weight: bold;
+            }
+    
+            .harga {
+                color: green;
+            }
+            .container-produk{
+                display: flex;
+                margin-top: 100px;
+                
+            }
+            .container-produk .produk{
+                margin-left: 10px;
+            }
+           
+        </style>
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <section class="header-section">
+            <div class="container">
+                <section class="navigation-section">
+                    <nav class="navbar navbar-expand-lg justify-content-end">
+                        <div class="container fixed-position p-0">
+                            <a class="navbar-brand nav-position ms-2" href="#"><img src="img/logo_k-removebg-preview.png" alt="Logo"></a>
+                            <button class="navbar-toggler mt-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mynavbar">
+                                <img src="img/Toggler.png" alt="">
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                                <ul class="navbar-nav nav ms-auto navbar-right">
+                                    <li class="nav-item ms-4">
+                                        <a class="nav-link nav-position" href="#our-services-section">menu</a>
+                                    </li>
+                                    <li class="nav-item ms-4">
+                                        <a class="nav-link nav-position" href="#why-us-section">pertanyaan</a>
+                                    </li>
+                                    <li class="nav-item ms-4">
+                                        <a class="nav-link nav-position" href="#testimony-section">retting costumer</a>
+                                    </li>
+                                    <li class="nav-item ms-4">
+                                        <a class="nav-link nav-position" href="#faq-section">kontak</a>
+                                    </li>
+                                    <li class="nav-item ms-4">
+                                        <a class="nav-link nav-position p-0" href="#"><button
+                                                class="btn-register">Register</button></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </section>
+                <section class="hero-section">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 hero-desc">
+                            <h1>Crispy French Fries</h1>
+                            <p>Selamat datang di crispy french fries kami menyediakan kentang goreng dan aneka burger .</p>
+                            <button class="btn-rent-now">ayo beli sekarang</button>
+                        </div>
+                       
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container">
+        <section class="our-services-section" id="our-services-section">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="img-service">
+                        <img src="img/burger.jpg" alt="our service">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 v-center">
+                    <div class="desc-service">
+                        <h2>Crispy French Fries Burger</h2>
+                        <p>Crispy French Fries dan Burger jaminan harga lebih murah di bandingkan toko lainnya, serta kualitas pelayanan terbaik untuk perjalanan wisata,
+                            pelanggan,nongkrong, makan, camilan, meeting, dll.</p>
+                        <ul>
+                            <li>buka setiap hari 24 Jam</li>
+                            <li>pelayanan terbaik</li>
+                            <li>bermacam macam menu </li>
+                            <li>Gratis Antar bisa delivery order</li>
+                            <li>makanan yang berkualitas, rasa terjamin enak dan higienis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-us-section" id="why-us-section">
+            <h2>Why Us?</h2>
+            <p>mengapa harus pilih Crispy French Fries Burger?</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 center-div">
+                    <div class="card">
+                        <img src="img/wwwty.jpeg" class="icon-why-us" alt="icon complete">
+                        <h4>Crispy French Fries Burger</h4>
+                        <p>karena bisa buat mengganjal perut lapar dan mudah di bawa berpergian </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 center-div">
+                    <div class="card">
+                        <img src="img/harga.png" class="icon-why-us" alt="icon Price">
+                        <h4>Harga Murah</h4>
+                        <p>Harga murah dan terjamin enak, bersih dan higienis</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 center-div">
+                    <div class="card">
+                        <img src="img/24.png" class="icon-why-us" alt="24">
+                        <h4>Layanan 24 Jam</h4>
+                        <p>Siap melayani pembelian Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 center-div">
+                    <div class="card">
+                        <img src="img/kkurir.png" class="icon-why-us" alt="icon">
+                        <h4>pengantaran cepat </h4>
+                        <p>pengiriman dengan profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid">
+        <section class="testimony-section" id="testimony-section">
+
+            <div class="opening-text-testimony text-center">
+                <h2>Testimonial</h2>
+                <p>Berbagai review positif dari para pelanggan kami</p>
+            </div>
+            <div class="owl-carousel">
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person1.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p>“rasanya terjamin enak bisa buat teman ngemil”</p>
+                                    <h5>John Dee 32,pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person2.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p>“harga sangat terjangkau dan kualitas terbaik”</p>
+                                    <h5>John Dee 32,pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person1.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p> “pengirima tepat waktu”</p>
+                                    <h5>John Dee 32, pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person2.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p>“rasanya terjamin enak bisa buat teman ngemil”</p>
+                                    <h5>John Dee 32,pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person1.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p>“harga sangat terjangkau dan kualitas terbaik”</p>
+                                    <h5>John Dee 32, pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="testi-box">
+                        <div class="row">
+                            <div class="col-lg-3 vh-center py-4">
+                                <img src="img/person2.png" alt="person image">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="text-review">
+                                    <div class="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                        <img src="img/Star.svg" alt="star">
+                                    </div>
+
+                                    <p>“pengirima tepat waktu”</p>
+                                    <h5>John Dee 32,pelanggan</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <div class="container mb-4">
+        <div class="container-produk">
+            <div class="produk ">
+                <img src="img/medium.jfif" alt="burger ">
+                <div class="nama-produk">burger medium</div>
+                <div class="harga">Rp 16.000</div>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="produk ">
+                <img src="img/kejuu.jfif" alt="burger">
+                <div class="nama-produk">burger king </div>
+                <div class="harga">Rp 22.000</div>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="produk">
+                <img src="img/OIP.jfif" alt="french fries">
+                <div class="nama-produk">french fries</div>
+                <div class="harga">Rp 11.000</div>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="produk">
+                <img src="img/stik ktng.jpg" alt="french fries">
+                <div class="nama-produk">french fries keju</div>
+                <div class="harga">Rp 11.000</div>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="cta-banner-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="call-to-action text-center">
+                        <h1>Crispy French Fries Burger</h1>
+                        <p>jangan lupa beli di toko kami atau pesan delivery online.</p>
+                        <button class="btn-rent-now">ayo beli sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section" id="faq-section">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="faq-intro">
+                        <h2>Frequently Asked Question</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="list-questions">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                            <div class="accordion-box">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Apa saja menunya?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"> French Fries, Spicy Chicken Bites, Chicken Fingers, 
+                                        Mentai Sauce, dan New Spicy BBQ Crunchy Stars.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-box">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Berapa harga 1 burger?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">harga yang murah, hanya dengan Rp16.500
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-box">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Berapa harga kentang medium?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">dibanderol dengan harga berbeda sesuai dengan ukuran. Yakni Rp10,500 (ukuran reguler)
+                                            , Rp17.500 (ukuran medium), dan Rp22,500 (ukuran large).</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-box">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Apakah Ada biaya pengantaran?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">gratis ongkir bila datang ketoko sendiri, bila lewat aplikasi  di kenakan biaya ongkir</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-box">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                            aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Bagaimana jika pengiriman salah?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">kita akan mengganti pesanan lagi, yang lebih baik dan benar, dll.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="address">
+                        <h5>Jalan diponegoro No. 161 multirana kota purwodadi 672000</h5>
+                        <h5>CrispyFrenchFriesBurger@gmail.com</h5>
+                        <h5>0831-4613-7719</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 mb-4">
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">Our services</a>
+                            </li>
+                            <li>
+                                <a href="#">Why Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Testimonial</a>
+                            </li>
+
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="sosmed">
+                        <h5>Connect with us</h5>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="img/icon_facebook.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_instagram.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_twitter.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_mail.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_twitch.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="copyright">
+                        <h5>Copyright Binar 2022</h5>
+                        <img src="img/logo.png" alt="Binar Academy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+<script src="Bootstrap 5/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/7441451cf7.js" crossorigin="anonymous"></script>
+
+
+</html>
